@@ -1,0 +1,215 @@
+body {
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.frm-group {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.inpform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: auto;
+  width: 500px;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 15px;
+}
+select {
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+textarea {
+  border-radius: 10px;
+  padding: 7px;
+}
+input {
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(65, 64, 64);
+}
+
+.fil{
+  width: 407px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(65, 64, 64);
+}
+label {
+  padding: 5px;
+}
+
+input[type="file"] {
+}
+
+
+.noquill{
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: block;
+}
+
+
+
+span {
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+input:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+input:invalid[focused="true"] {
+  border: 1px solid red;
+}
+textarea:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+textarea:invalid[focused="true"] {
+  border: 1px solid red;
+}
+select:invalid[focused="true"] ~ span {
+  display: block;
+}
+
+select:invalid[focused="true"] {
+  border: 1px solid red;
+}
+
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonx {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+.buttony {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+.subx{
+  padding: 10px;
+  width: 200px;
+  margin-top: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.sub {
+  padding: 10px;
+  width: 200px;
+  margin-top: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.finlsub {
+  padding: 10px;
+  width: 100%;
+  margin-top: 15px;
+  background-color: blue;
+  border-radius: 10px;
+  color: aliceblue;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.app{
+  width: 450px;
+}
+.app .ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+ 
+}
+
+/* Snow Theme */
+.app .ql-snow.ql-toolbar {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+}
+.app .ql-editor {
+  min-height: 7em;
+ 
+}
+
+.head{
+  font-size: 20px;
+  font-weight: 500;
+  color: blue;
+
+}
+
+.pdfeditbtn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.pdfedit{
+  border: 1px solid rgb(94, 91, 91);
+  padding: 10px;
+  border-radius: 10px;
+}
+.pdf{
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+cursor: pointer;
+width: 150px;
+background-color: blue;
+color: aliceblue;
+padding: 7px;
+
+}
